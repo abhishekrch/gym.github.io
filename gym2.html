@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>United GymKhana</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="navbar">
+
+            <h1>United <span> GymKhana</span></h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>pricing</li>
+                <li>contact</li>
+            </ul>
+            <button class="btn">Know More</button>
+        </div>
+        <div class="content">
+            <div>
+                <p1>Be <SPan> United</SPan></p1><br>
+                <p2>For Stay<span> United</span></p2><br>
+                <p3>In The <span> United</span></p3><br>
+                <input type="search" name="" placeholder="search">
+                <button>Search</button>
+            </div>
+            <div class="img">
+                <img src="f.png">
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="cont">
+            <div>
+                <img src="a.png">
+            </div>
+            <div>
+                <h1>About Me</h1>
+                <h3>Gym Trainer</h3>
+                <p>My name is Shera and I am a certified personal trainer and fitness enthusiast. I have been in the
+                    fitness industry
+                    for 10 years and have a passion for helping people achieve their health and fitness. <br>
+
+                    I hold a A+ certification and have extensive knowledge in e.g. strength training, weight loss, etc.
+                    I specialize in creating personalized training plans that are tailored to each individual's unique
+                    needs and goals.
+
+                    In my sessions, I aim to not only improve my clients' physical fitness, but also their overall
+                    well-being. I believe in the power of exercise to not only transform the body, but also the mind.
+                </p>
+
+                <p> I am dedicated to creating a supportive and inclusive environment for all my clients, regardless of
+                    their fitness level or experience. If you are looking to improve your health, reach your goals, and
+                    have fun along the way, I would love to work with you. Let's get started on your fitness journey
+                    today....</p>
+                <button>Know More</button>
+            </div>
+        </div>
+    </div>
+    <div class="service">
+        <div class="text">
+            <h1>Our Service</h1>
+            <div class="box">
+                <div>
+                    <ion-icon name="person"></ion-icon>
+                    <h2>Sports Training</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+                <div>
+                    <ion-icon name="bicycle"></ion-icon>
+                    <h2>Bicycle Training</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+                <div>
+                    <ion-icon name="tennisball"></ion-icon>
+                    <h2>Games Training</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricing">
+        <div class="price">
+            <h1>Pricing</h1>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod -->
+                <!-- tempor incididunt ut labore et dolore magna aliqua.</p> -->
+            <div class="price-box">
+                <div>
+                    <h2>Basic</h2>
+                    <h3>INR 1999</h3>
+                    <h5>1 Month Training</h5>
+                    <button class="btn">Buy Now</button>
+                </div>
+                <div>
+                    <h2>Standard</h2>
+                    <h3>INR 5499 </h3>
+                    <h5>3 Month Training</h5>
+                    <button class="btn">Buy Now</button>
+                </div>
+                <div>
+                    <h2>Premium</h2>
+                    <h3>INR 7999</h3>
+                    <h5>6 Month Training</h5>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <style>
+        /* Add some styling for the page */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color:gray;
+        }
+    
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+
+    
+        /* Add some styling for the contact form */
+        form {
+          display: flex;
+          flex-direction: column;
+          margin-top: 20px;
+        }
+    
+        label {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+    
+        input, textarea {
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-bottom: 20px;
+          padding: 10px;
+          width: 100%;
+        }
+    
+        textarea {
+          height: 200px;
+        }
+    
+        button {
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 4px;
+          color: white;
+          cursor: pointer;
+          font-weight: bold;
+          padding: 12px 20px;
+        }
+    
+        button:hover {
+          background-color: #45a049;
+        }
+      </style>
+    <!-- </head> -->
+    <body>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <!-- <p>We'd love to hear from you! Please fill out the form below to send us a message:</p> -->
+        <form action="/contact" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </body>
+
+    <div class="footer-fluid">
+        <div class="footer">
+            <p>Copyright 2022 - All Right Reserved - Made By <a href="#">Shishir Dubey</a></p>
+            <div class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <!-- <ion-icon name="logo-google"></ion-icon> -->
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
